@@ -23,7 +23,7 @@ readme = "README.md"
 requires-python = ">=3.14"
 license = "MIT"                          # SPDX expression (PEP 639)
 license-files = ["LICENSE"]
-authors = [{ name = "IGRSoft", email = "support@igrsoft.com" }]
+authors = [{ name = "Agnidia", email = "support@igrsoft.com" }]
 keywords = ["widgets", "cli"]
 classifiers = [
     "Programming Language :: Python :: 3.14",
@@ -33,8 +33,8 @@ classifiers = [
 dependencies = ["httpx>=0.27", "click>=8.1"]
 
 [project.urls]
-Homepage = "https://github.com/IGRSoft/acme-widgets"
-Issues = "https://github.com/IGRSoft/acme-widgets/issues"
+Homepage = "https://github.com/Agnidia/acme-widgets"
+Issues = "https://github.com/Agnidia/acme-widgets/issues"
 
 [project.scripts]
 acme = "acme_widgets.cli:main"
